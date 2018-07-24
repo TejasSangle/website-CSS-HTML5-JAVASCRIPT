@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<HEAD>
+
+<TITLE>
+hi
+
+</TITLE>
+
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+</HEAD>
+
+<body>
+<div class="main_wrapper">
+
+<div class="header_wrapper">
+<img id="logo1" src="logo1.png">
+
+</div>
+<div class="content_wrapper">
+<div id="sidebar">
+<h1>
+<ul>
+<li><a href="">Home </a> </li>
+<li><a href="">About Us</a> </li>
+<li><a href="">Contact Us</a> </li>
+<li><a href="">Farmer-Helpline</a> </li>
+<li><a href="">Logout </a></li>
+
+</h1>
+</ul>
+
+
+ </div>
+
+
+
+<div id="content_area">  
+
+<form >
+<h1>Please select desired item
+<fieldset> 
+<label><Crop-Id:-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>
+<input type="text" name="Crop-Id" value=""> </input>
+<br>
+<label>Crop-name:-</label>
+<input type="text" name="Crop-name" value=""> </input>
+<br>
+<label>Crop-type:-&nbsp;&nbsp;</label>
+<input type="text" name="Crop-type" value=""> </input>
+<br>
+<label>quantity-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; </label>
+<input type="text" name="Crop-name" value=""> </input>
+<br>
+
+</h1>
+
+<input type="button" name="Buy" value="submit"> </input>
+</fieldset>
+
+
+
+
+
+</div>
+
+
+
+
+<div id=footer> this is footer </div>
+</div>
+
+
+
+
+
+</body>
