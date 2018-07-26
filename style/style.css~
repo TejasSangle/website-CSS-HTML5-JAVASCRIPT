@@ -1,0 +1,77 @@
+
+body {background-image:url("../back.png");}
+
+
+
+.main_wrapper{
+width:1000px;
+height:auto;
+margin:auto;
+
+}
+.header_wrapper{
+width:1000px;
+height:100px;
+margin:auto;
+background:none;
+}
+
+#logo1{
+	align:left;
+	
+}
+
+.content_wrapper {
+width:1000px;
+margin:auto;
+background:none;
+
+}
+
+#content_area {
+width:796px;
+height:1000px;
+float:right;
+background:none;
+border-width:2px;
+border-style:solid;
+}
+
+#footer {
+width:1000;
+background:none;
+}
+#sidebar{
+width:196px;
+height:1000px;
+float:left;
+background:none;
+border-width:2px;
+border-style:solid;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
