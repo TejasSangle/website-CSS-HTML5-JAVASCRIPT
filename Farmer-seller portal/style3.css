@@ -1,0 +1,411 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: courier;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body{
+	
+	background: url('images/background.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+header {
+	
+	
+	
+}
+
+.login {
+	padding:2em auto;
+	margin-top:2em;
+
+}
+
+
+.logo1{
+	width: 100px;
+	height: 95px;
+	border-radius: 50%;
+	position: absolute;
+}
+
+h2{
+	font-size: 80px;
+	margin-bottom: 15px;
+	font-family: courier;
+	color: #566f11;
+	text-align: center;
+}
+
+.tab { 
+    overflow: hidden; 
+    border-top: 1px solid #ccc; 
+	border-bottom: 1px solid #ccc; 
+    background-color: #f1f1f1; 
+} 
+ 
+.tab button { 
+    background-color: inherit; 
+    float: left; 
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+    padding: 14px 16px; 
+    transition: 0.3s; 
+    font-size: 17px; 
+} 
+ 
+.tab button:hover { 
+    background-color: #ddd; 
+} 
+ 
+ 
+.tab button.active { 
+    background-color: #ccc; 
+} 
+ 
+.tabcontent { 
+    display: none; 
+    padding: 6px 12px; 
+    border: 1px solid #ccc; 
+    border-top: none; 
+}
+
+.tab input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+	color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #29a329;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ 
+.loginbox{
+	width:450px;
+	height:700px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top:80%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 40px;
+}
+
+	
+.avatar{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		position: absolute;
+		top: -50px;
+		left: calc(50% - 50px);
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom:20px;
+	padding: 6px;
+    border-radius: 5px;
+}
+
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 24px;
+}
+
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: skyblue;
+}
+
+.loginbox a:hover
+{
+	color: #ffc107;
+}
+
+.loginbox .loginBtn{
+	margin-left: 10px;
+}
+
+
+/* About US css */
+
+.aboutUsContent{
+    width: 80%;
+	
+	margin: 0 auto;
+	padding: 20px;
+    line-height: 25px;
+    font-size: 15px;
+    word-wrap: break-word;
+	background-color:  #fff;
+  
+}
+
+.about{
+	height: 60%;
+	width: 40%;
+	float: left;
+	padding-right: 20px;
+	
+}
+.agri1{
+	font-weight:bold;
+}
+body {background-image:url("../images/22.jpg");}
+
+
+
+body {background-image:url("../images/back.png");}
+
+
+
+.main_wrapper{
+    margin: auto;
+
+height:auto;
+margin:auto;
+
+}
+.header_wrapper{
+height:120px;
+margin:auto;
+background:none;
+}
+
+#logo1{
+
+	
+}
+
+.content_wrapper {
+
+margin:auto;
+background:white;
+
+}
+
+#content_area {
+width:1000px;
+height:1500px;
+    margin: auto;
+
+background:white;
+text-align: center;
+font-family:Comic Sans Ms;
+}
+
+#footer {
+
+background:none;
+}
+#sidebar{
+width:196px;
+height:1000px;
+float:left;
+background:none;
+border-width:2px;
+border-style:solid;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+	font-family:Comic Sans Ms;
+	color:black
+}
+
+#dogs {
+	text-align:center;
+}
+
+#dogs li {list-style:none; margin:5px;}
+
+#dogs a {color:black; padding:8px; margin:5px; text-align:center; font-size:25px; text-decoration:none; font-family:Comic Sans Ms;}
+
+#dogs a:hover {color:orange; font-weight:bolder; text-decoration:underline;}
+
+
+
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+ 
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+ 
+.tab button:hover {
+    background-color: #ddd;
+}
+ 
+ 
+.tab button.active {
+    background-color: #ccc;
+}
+ 
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+} 
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+#form{
+	width:450px;
+	height:700px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top:80%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 40px;
+	
+}

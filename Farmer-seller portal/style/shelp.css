@@ -1,0 +1,118 @@
+body {background-image:url("../images/22.jpg");}
+
+
+
+body {background-image:url("../images/back.png");}
+
+
+
+.main_wrapper{
+    margin: auto;
+
+height:auto;
+margin:auto;
+
+}
+.header_wrapper{
+height:120px;
+margin:auto;
+background:none;
+}
+
+#logo1{
+
+	
+}
+
+.content_wrapper {
+
+margin:auto;
+background:white;
+
+}
+
+#content_area {
+width:1000px;
+height:1500px;
+    margin: auto;
+
+background:white;
+text-align: center;
+font-family:Comic Sans Ms;
+}
+
+#footer {
+
+background:none;
+}
+#sidebar{
+width:196px;
+height:1000px;
+float:left;
+background:none;
+border-width:2px;
+border-style:solid;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+	font-family:Comic Sans Ms;
+	color:black
+}
+
+#dogs {
+	text-align:center;
+}
+
+#dogs li {list-style:none; margin:5px;}
+
+#dogs a {color:black; padding:8px; margin:5px; text-align:center; font-size:25px; text-decoration:none; font-family:Comic Sans Ms;}
+
+#dogs a:hover {color:orange; font-weight:bolder; text-decoration:underline;}
+
+
+
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+ 
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+ 
+.tab button:hover {
+    background-color: #ddd;
+}
+ 
+ 
+.tab button.active {
+    background-color: #ccc;
+}
+ 
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+} 
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
